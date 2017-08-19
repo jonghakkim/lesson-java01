@@ -6,8 +6,8 @@ public class ForStatement {
 		
 		int sum = 0;
 		int i = 0; 
-		// ÃÊ±â°ª, Á¶°Ç½Ä, Áõ°¨ or Áõ°¡ ¼¼°¡Áö¸¦ ÄÚµùÇÑ´Ù. 
-		// ½ÇÇà¹®ÀÌ ÇÏ³ªÀÌ±â ¶§¹®¿¡ ºí·ÏÀÌ ¾ø´Ù.
+		// ì´ˆê¸°ê°’, ì¡°ê±´ì‹, ì¦ê° or ì¦ê°€ ì„¸ê°€ì§€ë¥¼ ì½”ë”©í•œë‹¤.  
+		// ì‹¤í–‰ë¬¸ì´ í•˜ë‚˜ì´ê¸° ë•Œë¬¸ì— ë¸”ë¡ì´ ì—†ë‹¤.
 		for (; i <= 10; i++) 
 			System.out.println(sum+=i);
 		

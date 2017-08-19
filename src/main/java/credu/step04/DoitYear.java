@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class DoitYear {
 
 	public static void main(String[] args) {
-		// 1) ¿¬»êÀ» ¼öÇàÇÏ±â À§ÇØ ÇÁ·ÒÇÁÆ®·Î °ªÀ» ÀÔ·Â ¹Ş´Â´Ù.
+		// 1) ì—°ì‚°ì„ ìˆ˜í–‰í•˜ê¸° ìœ„í•´ í”„ë¡¬í”„íŠ¸ë¡œ ê°’ì„ ì…ë ¥ ë°›ëŠ”ë‹¤. 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Year ====> ");
 		
-		// 2) ÇÁ·ÒÇÁÆ®¿¡ ÀÔ·ÂµÈ °ªÀ» °¡Á®¿Â´Ù.
+		// 2) í”„ë¡¬í”„íŠ¸ì— ì…ë ¥ëœ ê°’ì„ ê°€ì ¸ì˜¨ë‹¤.
 		int year = sc.nextInt();
         
-		// À±³âÀº 4, 400À¸·Î ·Î ³ª´©¾î ¶³¾îÁö°í, 100À¸·Î ³ª´©¾î ¶³¾îÁö¸é ¾È µÈ´Ù. 
+		// ìœ¤ë…„ì€ 4, 400ìœ¼ë¡œ ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ê³ , 100ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ë©´ ì•ˆ ëœë‹¤. 
 		if (year % 4 == 0 &&
 				year % 100 != 0 &&
 				year % 400 == 0)
-			System.out.println("À±³â");
+			System.out.println("ìœ¤ë…„");
 		else 
-			System.out.println("Æò³â");
+			System.out.println("í‰ë…„");
 
 	}
 
