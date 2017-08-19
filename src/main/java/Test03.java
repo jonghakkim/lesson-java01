@@ -1,4 +1,4 @@
-/* ¹®ÀÚ¿Í ¹®ÀÚ¿­
+/* ë¬¸ìžì™€ ë¬¸ìžì—´
  * 
  */
 class Test03 {
@@ -6,13 +6,13 @@ class Test03 {
   public static void main(String[] arg) {
     
     char ch = 'A';
-    //ch = 'AB'; //ÄÄÆÄÀÏ ¿À·ù! ¹®ÀÚÇÊµå¿¡´Â ÇÏ³ªÀÇ ¹®ÀÚ¸¸ µé¾î°¥ ¼ö ÀÖ´Ù.
-                 // µÎ°¡Áö ÀÌ»óÀÇ ¹®ÀÚ´Â ¹®ÀÚ¿­·Î ¼±¾ðÇÑ´Ù.
+    //ch = 'AB'; //ì»´íŒŒì¼ ì˜¤ë¥˜! ë¬¸ìží•„ë“œì—ëŠ” í•˜ë‚˜ì˜ ë¬¸ìžë§Œ ë“¤ì–´ê°ˆ ìˆ˜ ìžˆë‹¤.
+                 // ë‘ê°€ì§€ ì´ìƒì˜ ë¬¸ìžëŠ” ë¬¸ìžì—´ë¡œ ì„ ì–¸í•œë‹¤.
 
     String s1, s2;
     s1 = "AB";
     
-    // ¹®ÀÚ¿­Àº + ¿¬»êÀÚ·Î ¼­·Î ¿¬°áÇÑ´Ù. 
+    // ë¬¸ìžì—´ì€ + ì—°ì‚°ìžë¡œ ì„œë¡œ ì—°ê²°í•œë‹¤.  
     s2 = "A" + "B";
 
     System.out.println(s1);

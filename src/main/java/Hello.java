@@ -1,22 +1,22 @@
-/* ¼Ò½ºÆÄÀÏ°ú Å¬·¡½º °ü°è 
- * => ¼Ò½ºÆÄÀÏ¸í°ú Å¬·¡½º¸íÀº µ¿ÀÏÇØ¾ß ÇÑ´Ù.
+/* ì†ŒìŠ¤íŒŒì¼ê³¼ í´ëž˜ìŠ¤ ê´€ê³„ 
+ * => ì†ŒìŠ¤íŒŒì¼ëª…ê³¼ í´ëž˜ìŠ¤ëª…ì€ ë™ì¼í•´ì•¼ í•œë‹¤.
  * 
  */
 class Hello {
-  // Å¬·¡½º ºí·Ï¿¡ ¼±¾ðÇÑ º¯¼ö¸¦ Å¬·¡½º º¯¼ö¶ó ÇÑ´Ù. 
-  // '0'À¸·Î ÀÚµ¿ ÃÊ±âÈ­µÈ´Ù.
+  // í´ëž˜ìŠ¤ ë¸”ë¡ì— ì„ ì–¸í•œ ë³€ìˆ˜ë¥¼ í´ëž˜ìŠ¤ ë³€ìˆ˜ë¼ í•œë‹¤.  
+  // '0'ìœ¼ë¡œ ìžë™ ì´ˆê¸°í™”ëœë‹¤.
   int a;  
 
-  // JVM(java virtual machine)Àº ÀÚ¹Ù¼Ò½ºÆÄÀÏÀÇ main() ¸Þ¼­µå¸¦ Á¦ÀÏ ¸ÕÀú Ã£´Â´Ù.
-  // main ¸Þ¼Òµå°¡ ¾øÀ¸¸é java ¼Ò½ºÆÄÀÏ·Î ÀÎ½ÄÇÒ ¼ö ¾ø´Ù.
-  // ±ÔÄ¢ÀÌ´Ù. main() ¸Þ¼­µå ÇüÅÂ¸¦ ¾Ï±âÇÏ¶ó.
+  // JVM(java virtual machine)ì€ ìžë°”ì†ŒìŠ¤íŒŒì¼ì˜ main() ë©”ì„œë“œë¥¼ ì œì¼ ë¨¼ì € ì°¾ëŠ”ë‹¤.
+  // main ë©”ì†Œë“œê°€ ì—†ìœ¼ë©´ java ì†ŒìŠ¤íŒŒì¼ë¡œ ì¸ì‹í•  ìˆ˜ ì—†ë‹¤.
+  // ê·œì¹™ì´ë‹¤. main() ë©”ì„œë“œ í˜•íƒœë¥¼ ì•”ê¸°í•˜ë¼.
   public static void main(String[] arg) {
-      System.out.println("°¡°¢°£²á");
+      System.out.println("ê°€ê°ê°„ê¿");
   }
   
-  // ¸Þ¼­µå ¼±¾ð Çü½Ä(¹®¹ý) => ½Ã±×´ÏÃ³ (signature) ¶ó°íµµ ÇÑ´Ù.
-  // ¸®ÅÏÅ¸ÀÔ ¸Þ¼­µå¸í (ÆÄ¶ó¹ÌÅÍ, ÆÄ¶ó¹ÌÅÍ, ...) {....}
+  // ë©”ì„œë“œ ì„ ì–¸ í˜•ì‹(ë¬¸ë²•) => ì‹œê·¸ë‹ˆì²˜ (signature) ë¼ê³ ë„ í•œë‹¤.
+  // ë¦¬í„´íƒ€ìž… ë©”ì„œë“œëª… (íŒŒë¼ë¯¸í„°, íŒŒë¼ë¯¸í„°, ...) {....}
   // -------------------------------
-  //    ¡è
-  //    --- ½Ã±×´ÏÃ³ (signature)
+  //    â†‘
+  //    --- ì‹œê·¸ë‹ˆì²˜ (signature)
 }
