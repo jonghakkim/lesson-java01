@@ -1,0 +1,81 @@
+[1]
+    size    1byte    2byte    4byte    8byte
+	논리형  boolean
+	문자형            char   
+	정수형  byte      short    int      long 
+	실수형                     float    double
+
+[2]
+=> long regNo = 7701011111222L;
+=> 정수형 타입으로는 보통 int 형을 사용하지만 주민등록번호는 13자리의 정수이기
+   때문에 int형의 범위를 넘어서는 값이다 그래서 long형을 사용해야한다 
+   그리고 리터럴의 접미사 'L' 을 잊어서는 안된다
+
+
+[3]
+=> 리터럴: 100, 100L, 3.14f
+=> 변수: i, l
+=> 키워드: int, long, final, float
+=> 상수: PI
+
+
+[4]
+System.out.println(“1” + “2”) (12 )
+System.out.println(true + “”) (true )
+System.out.println(‘A' + 'B') (131 ) 
+=> 문자와 문자의 덧셈연산 결과는 int형 정수값이다
+=> int형보다 작은 타입 byte, char, short 형은 
+   int형으로 변환되어 연산된다.
+
+   'A' 65, '1' 49, a 97
+
+System.out.println('1' + 2)   (51 )
+System.out.println('1' + '2') (99 )
+System.out.println('J' + “ava”) (Java )
+System.out.println(true + null) (오류 )
+
+[5]
+a. $ystem
+b. channel#5 - 허용하지 않는 특수문자'#'를 사용할 수 없다
+c. 7eleven - 숫자로 시작하면 안된다
+d. If
+e. 자바
+f. new - 예약어라서 사용할 수 없다
+g. $MAX_NUM
+h. hello@com - 허용하지 않는 특수문자 '@' 를 사용할 수 없다
+
+** 변수의 이름 규칙
+ 
+   1. 대소문자가 구분되며 길이에 제한이 없다
+    - True 와 true 는 서로 다른 것으로 간주된다
+   2. 예약어를 사용해서는 안 된다
+    - true는 예약어라서 사용할 수 없지만 True는 가능하다
+   3. 숫자로 시작해서는 안 된다
+    - top10은 허용하지만 7up는 허용되지 않는다
+   4. 특수문자는 '_'와 '$'만을 허용한다
+    - $harp은 허용하지만 S#arp은 허용되지 않는다
+
+[6]
+a. b = (byte)i; // int(4byte) → byte(1byte)이므로 반드시 형변환 필요
+b. ch = (char)b; // byte(1byte) → char(2byte)이지만 범위가 달라서 형변환 필요
+c. short s = (short)ch; // char,short 2byte 이지만 범위가 달라서 형변환 필요
+d. float f = (float)l; // float(4byte) 의 범위가 long(8byte)보다 커서 생략가능
+e. i = (int)ch; // char(2 byte) → int(4byte)이므로 생략가능
+
+[7]
+char는 2 byte(2*8=16bit)이므로 ‘2의 16제곱’ 개의 값을 표현할 수 있다.
+2의 16제곱은 65536, 0을 포함하므로 0~65535 ( 65536개 )
+
+[8]
+a. byte b = 256; // byte의 범위 (-128~127) 를 넘는 값으로 초기화 할 수 없음
+b. char c = ''; // char는 반드시 한 개의 문자를 지정해야함 
+c. char answer = 'no'; // char 에 두 개의 문자를 저장할 수 없음.
+d. float f = 3.14 // 3.14는 3.14d의 생략된 형태. 접미사 f를 붙이거나 형변환필요
+e. double d = 1.4e3f; // double(8byte)에 float값(4byte)을 넣는 것 OK
+
+=> 접미사가 붙는 자료형은 long, float, double 3개의 자료형이다.
+   접미사는 대소문자를 구분하지 않는다. 
+   double은 접미사를 생략할 수 있다.
+
+[9]
+public static void main (String[] args)

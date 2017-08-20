@@ -1,0 +1,17 @@
+JDK(자바개발도구) 설치 - https://youtu.be/xRkCbqR0v84
+
+첫번째 자바 프로그램 만들기1(메모장) - https://youtu.be/wfbWxtHHrgM
+
+이클립스(eclipse, 자바개발환경) 설치하기 - https://youtu.be/ZVdbWwNzqo4
+
+Java API문서 설치 및 사용법 - https://youtu.be/d08H1r1k5g4
+
+변수의 선언과 초기화 -  https://youtu.be/bIadtqZGIm0 
+
+변수의 타입 - https://youtu.be/2fnpPUs79MQ
+
+변수, 상수, 리터럴 - https://youtu.be/_fz8XCW3NJg
+
+printf와 화면입력 - https://youtu.be/C3GPcFrcddY
+
+연산자 - https://youtu.be/XLtCEdq8yI4

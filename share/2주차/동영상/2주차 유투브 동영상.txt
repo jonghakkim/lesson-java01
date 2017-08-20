@@ -1,0 +1,3 @@
+printf와 화면입력 - https://youtu.be/C3GPcFrcddY
+연산자 - https://youtu.be/XLtCEdq8yI4
+조건문과 반복문 - https://youtu.be/6aKQA_i9c_0
