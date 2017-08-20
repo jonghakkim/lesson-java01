@@ -9,9 +9,9 @@ public class LoopController {
 		int i = 1;
 		for (; i <= 10; i++) {	
 			if( i % 2 == 0 )
-				return; // 메인메서드를 빠져 나간다. 메서드 블록 끝까지 가지 않는다.
-				//break; // 메서드 블록 끝까지 연산이 수행된다.
-			    //continue; // 메서드 블록 끝까지 연산이 수행된다.
+				//return; // 메인메서드를 빠져 나간다. 메서드 블록 끝까지 가지 않는다.
+				break; // 메서드 블록 끝까지 연산이 수행된다.
+			  //continue; // 메서드 블록 끝까지 연산이 수행된다.
 			System.out.printf("%d\n", i);
 		}
 		System.out.println("  Main ====");
