@@ -6,9 +6,9 @@ public class Test04 {
 		int x = -10;
 		int absX = x >= 0 ? x : -x;
 		// - 삼항연산자 표기법 (문법)
-		//   => (조건식)? true 일때 실행할 명령어 : false 일때 실행할 명령어
+		//   => (조건식)? true 일때 실행할 명령어 : false 일때 실행할 명령어;
 		// - 예시.
-		//   => (x >= 0) ? x   : -x
+		//   => (x >= 0) ? x   : -x;
 		//                ---    ---
 		//                true   false
 		
