@@ -1,0 +1,206 @@
+[1] 다음과 같은 배열이 있을 때 arr[3].length 의 값은 얼마인가?
+
+int[][] arr = {
+	{ 5, 5, 5, 5, 5},
+	{ 10, 10, 10},
+	{ 20, 20, 20, 20},
+	{ 30, 30}
+};
+
+
+[2] 배열 arr 에 담긴 모든 값을 더하는 프로그램을 완성하시오.
+
+class Exercise5_3
+{
+	public static void main(String[] args)
+	{
+		int[] arr = {10, 20, 30, 40, 50};
+		int sum = 0;
+		
+		/*
+		(1) . 알맞은 코드를 넣어 완성하시오
+		*/
+		
+		System.out.println("sum="+sum);
+	}
+}
+
+[실행결과]
+sum=150
+
+
+[3] 2차원 배열 arr 에 담긴 모든 값의 총합과 평균을 구하는 프로그램을 완성하시오.
+
+class Exercise5_4
+{
+	public static void main(String[] args)
+	{
+		int[][] arr = {
+			{ 5, 5, 5, 5, 5},
+			{10,10,10,10,10},
+			{20,20,20,20,20},
+			{30,30,30,30,30}
+		};
+		int total = 0;
+		float average = 0;
+		
+		/*
+		(1) . 알맞은 코드를 넣어 완성하시오
+		*/
+		
+		System.out.println("total="+total);
+		System.out.println("average="+average);
+	} // end of main
+} // end of class
+
+[실행결과]
+total=325
+average=16.25
+
+
+[4] 다음은 1과 9사이의 중복되지 않은 숫자로 이루어진 3자리 숫자를 만들어내는 
+    프로그램이다. (1)~(2)에 알맞은 코드를 넣어서 프로그램을 완성하시오. 
+
+[참고]  Math.random() 을 사용했기 때문에 실행결과와 다를 수 있다.
+
+
+class Exercise5_5 {
+	public static void main(String[] args) {
+		int[] ballArr = {1,2,3,4,5,6,7,8,9};
+		int[] ball3 = new int[3];
+		
+		// 배열 ballArr 의 임의의 요소를 골라서 위치를 바꾼다
+		for(int i=0; i< ballArr.length;i++) {
+			int j = (int)(Math.random() * ballArr.length);
+			int tmp = 0;
+			/*
+			(1) 알맞은 코드를 넣어 완성하시오
+			*/
+		}
+		
+		// 배열 ballArr의 앞에서 3개의 수를 배열 ball3로 복사한다
+		/* (2) */
+		
+		for(int i=0;i<ball3.length;i++) {
+			System.out.print(ball3[i]);
+		}
+	} // end of main
+} // end of class
+
+[실행결과] 
+486
+
+
+[5] 다음은 거스름돈을 몇 개의 동전으로 지불할 수 있는지를 계산하는 문제이다.
+    변수 money 의 금액을 동전으로 바꾸었을 때 각각 몇 개의 동전이 필요한지 계산해서 
+    출력하라. 단 가능한 한 적은 수의 동전으로 거슬러 주어야한다.
+    (1) 에 알맞은 코드를 넣어서 프로그램을 완성하시오.
+
+[Hint] 나눗셈 연산자와 나머지 연산자를 사용해야 한다.
+
+class Exercise5_6 {
+	public static void main(String args[]) {
+		
+		// 큰 금액의 동전을 우선적으로 거슬러 줘야한다
+		int[] coinUnit = {500, 100, 50, 10};
+		int money = 2680;
+		System.out.println("money="+money);
+		
+		for(int i=0;i<coinUnit.length;i++) {
+			/*
+			(1) . 알맞은 코드를 넣어 완성하시오
+			*/
+		}
+	} // main
+}
+
+[실행결과] 
+money=2680
+500원 : 5
+100원 : 1
+50원  : 1 
+10원  : 3
+
+
+[6] 다음은 알파벳과 숫자를 아래에 주어진 암호표로 암호화하는 프로그램이다.
+    (1)에 알맞은 코드를 넣어서 완성하시오
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+` ~ ! @ # $ % ^ & * ( ) - _ + = | [ ] { } ; : , . /
+
+0 1 2 3 4 5 6 7 8 9
+q w e r t y u i o p
+
+
+class Exercise5_10 {
+	public static void main(String[] args) {
+		char[] abcCode =
+		{ '`','~','!','@','#','$','%','^','&','*',
+			'(',')','-','_','+','=','|','[',']','{',
+			'}',';',':',',','.','/'
+		};
+		
+		// 0 1 2 3 4 5 6 7 8 9
+		char[] numCode = {'q','w','e','r','t','y','u','i','o','p'};
+		String src = "abc123";
+		String result = "";
+
+		// src charAt() result 문자열 의 문자를 으로 하나씩 읽어서 변환 후 에 저장
+		for(int i=0; i < src.length();i++) {
+			char ch = src.charAt(i);
+			
+			/*
+			(1) . 알맞은 코드를 넣어 완성하시오
+			*/
+		}
+		System.out.println("src:"+src);
+		System.out.println("result:"+result);
+	} // end of main
+} // end of class
+
+[실행결과] 
+src:abc123
+result:`~!wer
+
+
+[7] 단어의 글자위치를 섞어서 보여주고 원래의 단어를 맞추는 예제이다 
+    실행결과와 같이 동작하도록 예제의 빈 곳을 채우시오.
+
+import java.util.Scanner;
+class Exercise5_13 {
+	public static void main(String args[]) {
+		String[] words = { "television", "computer", "mouse", "phone" };
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		for(int i=0;i<words.length;i++) {
+			char[] question = words[i].toCharArray(); // String을 char[]로 변환
+			
+			/*
+			(1) 알맞은 코드를 넣어 완성하시오
+			char 배열 question에 담긴 문자의 위치를 임의로 바꾼다
+			*/
+			
+			System.out.printf("Q%d. %s 의 정답을 입력하세요.>", 
+				i+1, new String(question));
+			
+			String answer = scanner.nextLine();
+			
+			// trim()으로 answer의 좌우 공백을 제거한 후 equals로 word[i]와 비교
+			if(words[i].equals(answer.trim()))
+				System.out.printf("맞았습니다.%n%n"); 
+			else
+				System.out.printf("틀렸습니다.%n%n"); 
+		}
+	} // main의 끝
+}
+
+[실행결과] 
+Q1. lvtsieeoin 의 정답을 입력하세요.>television 
+맞았습니다.
+Q2. otepcumr 의 정답을 입력하세요.>computer 
+맞았습니다.
+Q3. usemo 의 정답을 입력하세요.>asdf
+틀렸습니다.
+Q4. ohpne 의 정답을 입력하세요.>phone 
+맞았습니다
