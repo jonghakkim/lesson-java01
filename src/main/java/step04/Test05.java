@@ -10,12 +10,12 @@ public class Test05 {
     
     System.out.println(a);
     
-    // 부호비트와 같은 값으로 채운다.
+    // 왼쪽 빈자리를 부호비트로 채운다.
     System.out.println(a >> 1); // 0000_0101|0 (= a / 2^1)
     System.out.println(a >> 2); // 0000_0010|10 (= a / 2^2)
     
     System.out.println(-10 >> 2); // 음수
-    // 빈자리를 무조건 '0'으로 채운다.
+    // 왼쪽 빈자리를 무조건 '0'으로 채운다.
     System.out.println(-10 >>> 2); // 양수
     
     // 오른쪽 빈자리를 무조건 '0'으로 채운다. 
