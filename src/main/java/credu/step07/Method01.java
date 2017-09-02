@@ -1,12 +1,18 @@
+/* 가변인수(parameter) 사용하기
+ * =>가변인수는 배열이다. 배열로 처리하듯이 코딩해라
+ * 
+ */
 package credu.step07;
 
 public class Method01 {
 
   public static void main(String[] args) {
+    // 파라미터를 출력하는 메서드
     disp(10, 7, 8);
     disp(10, 7, 8, 1, 2);
     
-    System.out.println("가변인수의 합 : " + sum(4, 10));
+    // 파라미터의 합을 구해 출력하라
+    System.out.println("가변인수의 합 : " + sum(4, 10)); // 파라미터의 합을 구하는 메서드
     System.out.println("가변인수의 합 : " + sum(7, 2, 8, 11));
     System.out.println("가변인수의 합 : " + sum());
   }
@@ -27,7 +33,6 @@ public class Method01 {
     return sum;
   }
 }
-
 /* 한정자와 수식자
  * => 필드, 메서드, 클래스에 사용한다.
  * 1) 한정자 
