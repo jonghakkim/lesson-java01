@@ -1,10 +1,16 @@
+/* 생성자 사용하기
+ * => 기본생성자 문법
+ *    public 클래스명() { } 
+ * => this(), super() 생성자
+ * 
+ */
 package credu.step09;
 
 class Car {
   String color;
   
-  public Car() {} // 부모클래스의 기본생성자를 호출한다.
-                  // 기본 생성자를 지우면 에러 발생한다.
+  public Car() {} // 자식 클래스 MyCar는 부모클래스의 기본생성자를 호출한다.
+                  // 부모클래스의 기본 생성자를 지우면 에러 발생한다.
   
   public Car(String color) {
     this.color = color;
