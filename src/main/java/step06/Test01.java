@@ -19,5 +19,4 @@ public class Test01 {
       displayDan(dan);
     }
   }
-
 }
