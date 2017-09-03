@@ -12,7 +12,7 @@ class Rectangle extends Shape {
   double length;
   double width;
   public Rectangle (double l, double w) {
-    length = l;
+    length = l; 
     width = w;
   }
   
