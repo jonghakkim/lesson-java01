@@ -14,9 +14,11 @@ public class Test01 {
   }
   
   public static void main(String[] args) {
+    
     for (int dan = 2; dan <= 9; dan++) {
       displayHeader(dan);
       displayDan(dan);
     }
   }
+  
 }

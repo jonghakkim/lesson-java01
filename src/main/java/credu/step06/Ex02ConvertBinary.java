@@ -1,5 +1,10 @@
+/* 배열 응용 II
+ * => 배열을 이용하여 16진수를 2진수로 출력한다.
+ * 
+ */
+package credu.step06;
 
-public class ConvertBinary {
+public class Ex02ConvertBinary {
 
   public static void main(String[] args) {
     char[] hex = {'C','A','F','E'};

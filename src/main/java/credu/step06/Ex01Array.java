@@ -1,4 +1,7 @@
-/* Random seed 사용하기
+/* 배열 응용 I
+ * => 배열을 이용하여 1 ~ 45 까지 번호가 새겨진 공 중에서  6개의 공을 뽑아낸다.  
+ * 
+ * Random seed 사용하기
  * => Random random = new Random(5L);
  *                               --
  *                                => seed값
@@ -9,10 +12,11 @@
  * random.nextInt();       // all 2^32 possible int values
  * random.nextInt(100);    // range : 0 ~ 99
  */
+package credu.step06;
 
 import java.util.Random;
 
-public class ArrayEx {
+public class Ex01Array {
 
   public static void main(String[] args) {
     

@@ -28,6 +28,7 @@ public class Ch07_Method {
 		 System.out.println("반갑습니다." );
 		 Prn();
 	}
+	
 	public static void Prn(){
 		System.out.println("안녕하세요");
 	}
