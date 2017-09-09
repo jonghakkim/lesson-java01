@@ -7,7 +7,7 @@ package credu.step06;
 public class Ex02ConvertBinary {
 
   public static void main(String[] args) {
-    char[] hex = {'C','A','F','E'};
+    char[] hex = {'C','A','F','E','8'};
     
     String[] binary = {
         "0000","0001","0010","0011", // 0 ~ 3
@@ -20,9 +20,9 @@ public class Ex02ConvertBinary {
     
     for (int i = 0; i < hex.length; i++ ) {
       if (hex[i] > '0' && hex[i] < '9') {
-        result += binary[hex[i]];
-      } else {
-        result += binary[hex[i]-'A'+10];
+        result += binary[hex[i] - '0']; // '8'-'0' = 56 - 48 의 결과는 8이다.
+      } else { // A~F이면
+        result += binary[hex[i] - 'A' + 10]; // 'C'-'A' = 67 - 65 의 결과는 2
       }
       
       result += " ";
