@@ -3,9 +3,9 @@
  * => if 문 보다 코드가 더 간결해 진다.
  *  
  */
-package step04;
+package step05;
 
-public class Test06 {
+public class Test03 {
 
   public static void main(String[] args) {
     boolean a = true, 

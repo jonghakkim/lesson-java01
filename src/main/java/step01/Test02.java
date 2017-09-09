@@ -1,3 +1,6 @@
+/* 기본자료형 사용 II
+ * 
+ */
 package step01;
 
 public class Test02 {

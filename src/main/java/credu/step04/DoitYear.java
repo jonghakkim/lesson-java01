@@ -1,3 +1,6 @@
+/* Scanner 클래스 사용하여 사용자 입력값 받기
+ * 
+ */
 package credu.step04;
 
 import java.util.Scanner;

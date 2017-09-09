@@ -1,3 +1,7 @@
+/* 반복문 - do~while 문법
+ * => do {  } while(조건식);
+ * 
+ */
 package credu.step05;
 
 public class DoStatement {

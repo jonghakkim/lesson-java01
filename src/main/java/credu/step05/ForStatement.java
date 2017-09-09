@@ -1,3 +1,7 @@
+/* 반복문 - for문법
+ * => for (초기값; 조건식; 증감식) {  }
+ * 
+ */
 package credu.step05;
 
 public class ForStatement {

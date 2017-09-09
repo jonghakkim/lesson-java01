@@ -1,3 +1,6 @@
+/* 삼항 연산자 사용하기
+ * 
+ */
 package step01;
 
 public class Test04 {

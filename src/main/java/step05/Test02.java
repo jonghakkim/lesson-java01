@@ -1,9 +1,9 @@
 /* 비트 이동 연산자 (>> , >>>, <<)
  * 
  */
-package step04;
+package step05;
 
-public class Test05 {
+public class Test02 {
 
   public static void main(String[] args) {
     int a = 0b0000_1010;

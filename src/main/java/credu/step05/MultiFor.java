@@ -1,3 +1,7 @@
+/* 반복문 for 연습
+ * => 구구단 출력하기
+ * 
+ */
 package credu.step05;
 
 public class MultiFor {
