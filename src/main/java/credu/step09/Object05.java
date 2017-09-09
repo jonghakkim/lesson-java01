@@ -1,3 +1,9 @@
+/* 생성자 응용 II
+ * => 기본생성자 문법
+ *    public 클래스명() { } 
+ * => this(), super() 생성자
+ * 
+ */
 package credu.step09;
 
 public class Object05 {
@@ -39,6 +45,11 @@ public class Object05 {
       //super(); // 자동 실행된다. 
       this.price = price;
     }
+    
+    public MyCar(int price, String color) {
+      super(color); 
+      this.price = price;
+    }
 
     public int getPrice() {
       return price;
@@ -57,19 +68,20 @@ public class Object05 {
   public static void main(String[] args) {
     Object05 obj = new Object05();
     
-    Car car = obj.new Car("Black");
+    Car car = obj.new Car("black");
     MyCar myCar = obj.new MyCar(1000);
-    
-    //myCar = car; //컴파일 오류!
-    //myCar = (MyCar01)car; // 런타임 오류!
+    MyCar myCarBlue = obj.new MyCar(2000, "red");
     
     if (myCar instanceof MyCar) {
       System.out.println(myCar.getColor());
       System.out.println(myCar.getPrice());
       System.out.println(myCar.toString());
     }
+
+    //myCar = car; //컴파일 오류!
+    //myCar = (MyCar)car; // 런타임 오류!
     
-    car = myCar;
+    car = myCarBlue;
     
     if (car instanceof MyCar) {
       System.out.println(car.getColor());
