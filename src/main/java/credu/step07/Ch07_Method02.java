@@ -6,7 +6,32 @@
 package credu.step07;
 
 public class Ch07_Method02 {
-	public static void main(String[] args) {
+
+  // return method 이다.
+  public static int getY(int[] ar) {
+    // 로컬 필드라고 부른다.
+    int sum = 0;
+    for (int i = 0; i < ar.length; i++) {
+      sum += ar[i];
+    }
+    return sum;
+  }
+  
+  
+  public static int getX(int a, int b) {
+    return (a + b);
+  }
+
+  public static int getA() {
+    return 10;
+  }
+
+  public static float getF() {
+    return 98.7f;
+  }
+  
+  
+  public static void main(String[] args) {
 		int a = getA();  // 아하! int 를 반환하는 함수구나, 직관적으로 알 수 있다.
 		System.out.println("a=" + a); // 10
 		
@@ -30,28 +55,5 @@ public class Ch07_Method02 {
 		
 		// 출력문에 메서드를 바로 넣어서 출력할 수 있다. 
 		System.out.println("sum02 =" + getY(ar02));
-	}
-
-	// return method 이다.
-	public static int getY(int[] ar) {
-    // 로컬 필드라고 부른다.
-		int sum = 0;
-		for (int i = 0; i < ar.length; i++) {
-			sum += ar[i];
-		}
-		return sum;
-	}
-	
-	
-	public static int getX(int a, int b) {
-		return (a + b);
-	}
-
-	public static int getA() {
-		return 10;
-	}
-
-	public static float getF() {
-		return 98.7f;
 	}
 }
