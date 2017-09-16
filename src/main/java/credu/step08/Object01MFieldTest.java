@@ -49,8 +49,6 @@ public class Object01MFieldTest {
     
     System.out.println("-- main() ----");
     System.out.println("y = " + obj.y);
-    
-
   }
 
 }

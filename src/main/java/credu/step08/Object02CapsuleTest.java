@@ -5,6 +5,7 @@
 package credu.step08;
 
 class Capsule {
+
   private int y;
   static private int x;
   
@@ -33,7 +34,7 @@ class Capsule {
   
   static void method2() {
     x *= 5;
-    System.out.println("-- static method() ----");
+    System.out.println("-- static method2() ----");
     System.out.println("x = " + x);
   }
 }
@@ -46,11 +47,17 @@ public class Object02CapsuleTest {
     //obj.y = 10; //컴파일 오류! private 으로 선언되서 외부에서 접근 불가
     obj.setY(10);
     obj.method();
+    System.out.println("인스턴스 y = " + obj.getY());
     
     //스태틱 멤버의 사용
     //Capsule.x = 55;//컴파일 오류! private 으로 선언되서 외부에서 접근 불가
     Capsule.setX(55);
     Capsule.method2();
+    System.out.println("스태틱 x = " + Capsule.getX());
   }
-
 }
+
+
+
+
+
