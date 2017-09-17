@@ -46,7 +46,7 @@ public class Object01 {
     for (Shape s : my_shape) {
       if (s instanceof Circle) {
         System.out.println("Circle area : " + s.getArea());
-      }else {
+      } else {
         System.out.println("Rectangle area : " + s.getArea());
       }
       
