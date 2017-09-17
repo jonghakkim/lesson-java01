@@ -25,5 +25,4 @@ public class Object02Point {
 
     System.out.println(p1.toString());
   }
-
 }

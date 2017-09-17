@@ -4,8 +4,9 @@
 package credu.step09;
 
 class Object01Point {
-  
+
   class Point {
+    
     int x;
     int y;
 
@@ -29,6 +30,7 @@ class Object01Point {
     }
   }
 
+  
   public static void main(String[] args) {
     Object01Point obj = new Object01Point();
     
