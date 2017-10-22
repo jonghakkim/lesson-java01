@@ -3,6 +3,7 @@
  */
 package credu.step10;
 
+
 interface Countable {
   int getCount();
   void setCount(int count);

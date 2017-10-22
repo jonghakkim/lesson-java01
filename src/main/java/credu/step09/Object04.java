@@ -15,7 +15,6 @@ class Car {
     System.out.println("생성자 Car() 호출");
   }
 
-
   public Car(String color) {
     this.color = color;
     System.out.println("생성자 Car(String) 호출");
@@ -59,14 +58,12 @@ class MyCar extends Car {
     this.price = price;
   }
 
-
 }
 
 public class Object04 {
 
   public static void main(String[] args) {
     MyCar myCar = new MyCar(100);
-
   }
 
 }

@@ -70,6 +70,39 @@ public class Object05 {
     
     Car car = obj.new Car("black");
     MyCar myCar = obj.new MyCar(1000);
+    MyCar myCarBlue = obj.new MyCar(2000, "blue");
+    
+    if (myCar instanceof MyCar) {
+      System.out.println(myCar.getColor());
+      System.out.println(myCar.getPrice());
+      System.out.println(myCar.toString());
+    }
+
+    
+    System.out.println("==========================");
+
+    //myCar = car; //컴파일 오류!
+    //myCar = (MyCar)car; // 런타임 오류!
+
+    car = myCarBlue;
+    
+    if (car instanceof MyCar) {
+      System.out.println(car.getColor());
+      System.out.println(((MyCar)car).getPrice());
+      System.out.println(car.toString());
+    }
+    
+  }
+  
+}
+  
+  
+    
+    /*
+    Object05 obj = new Object05();
+    
+    Car car = obj.new Car("black");
+    MyCar myCar = obj.new MyCar(1000);
     MyCar myCarBlue = obj.new MyCar(2000, "red");
     
     if (myCar instanceof MyCar) {
@@ -88,8 +121,10 @@ public class Object05 {
       System.out.println(((MyCar)car).getPrice());
       System.out.println(car.toString());
     }
+ 
     
     
   }
 
 }
+ */
