@@ -26,9 +26,9 @@ public class Exercise01 {
     int[] data = {3,2,9,4,7};
     
     System.out.println(java.util.Arrays.toString(data));
-    System.out.println(" :"+max(data)); // 최대값, 9
-    System.out.println(" :"+max(null)); // 최대값, -999999
-    System.out.println(" :"+max(new int[]{})); // 0 최대값 크기가 인 배열, -999999 
+    System.out.println("최대값 :"+max(data)); // 최대값, 9
+    System.out.println("null 인 배열 :"+max(null)); // null 인 배열; 최대값, -999999
+    System.out.println("크기가 0 인 배열 :"+max(new int[]{})); // 크기가 0 인 배열; 최대값, -999999 
   }
   
 }
