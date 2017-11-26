@@ -1,0 +1,18 @@
+- 구글검색 "부트스트랩 개발환경"
+- 유투브검색 "부트스트랩 동빈나"
+** 웹스톰 강좌
+====> start up
+http://win100.tistory.com/217
+====> extension for chrome
+http://codedragon.tistory.com/77?category=47805
+====> sftp setting
+http://sys145.tistory.com/4
+** 부트스트랩 강좌
+====> start up
+  http://tworab.tistory.com/51
+  http://tworab.tistory.com/71
+====> related site
+  https://startbootstrap.com
+** CSS Framework
+  http://usablica.github.io/front-end-frameworks/compare.html
+  http://witinweb.com/post/105246674402/번역-2014년-가장-인기있는-5가지-프론트엔드-프레임워크-비교
