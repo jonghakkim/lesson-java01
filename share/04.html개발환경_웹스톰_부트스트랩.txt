@@ -1,13 +1,37 @@
-- ���۰˻� "��Ʈ��Ʈ�� ����ȯ��"
-- ������˻� "��Ʈ��Ʈ�� ����"
-** ������ ����
+﻿- 구글검색 "부트스트랩 개발환경"
+- 유투브검색 "부트스트랩 동빈나"
+** 웹스톰 강좌
 ====> start up
 http://win100.tistory.com/217
 ====> extension for chrome
 http://codedragon.tistory.com/77?category=47805
+  - Chrome브라우저에서 디버깅을 수행할 경우
+  - "Run - Edit Configurations" 실행해 Browser를 Chrome으로 설정; "Apply - OK"
+  - 디버깅을 위한 Chrome 확장기능 설치에 대한 안내메시지가 Event Log 에 표시됨 (~~~~Live Edit~~)
+  - Event Log 화면 오픈
+  - "JetBrains IDE Support" 링크 클릭
+  - 무료 버튼클릭
+  - "새 확장 프로그램 확인" 추가 클릭
+  ====> 주의~~~~ WebStorm 업데이트 수행한 후, 디버깅할 때 EventLog 화면에 확장기능 재설치 멘트 표시됨. (~~~~Live Edit~~)
+  ==> Live Editting 이 작동하지 않을 때 EventLog 화면을 확인한다.
+  ==> Live Editting 이 완벽하게 작동하지 않는다. 자동, 수동 섞어서 상황에 따라 작업한다.
+  ==> 서버에 업로드; 브라우저 리로딩; 태그 사이 내용 수정은 라이브 기능이 잘 작동하는 편이다.
 ====> sftp setting
 http://sys145.tistory.com/4
-** ��Ʈ��Ʈ�� ����
+  - "Tools - Deployment - Browse Remote Host"
+  - "Remote Host" 화면에서 [...] 클릭
+  - Connection 탭 설정
+    => SFTP host : ip주소, 호스트명
+    => Port : 포트주소 (Putty : 22)
+    => Root path : 서버 path
+    => User name : 계정명
+    => Auth type : key로 인증
+    => Private key file : key 위치 (abc.pem)
+  - Mapping 탭 설정
+    => 동기화 디렉토리 설정
+  - "Excluded Paths" 탭 설정
+    => 비동기화 디렉토리 설정
+** 부트스트랩 강좌
 ====> start up
   http://tworab.tistory.com/51
   http://tworab.tistory.com/71
@@ -15,4 +39,4 @@ http://sys145.tistory.com/4
   https://startbootstrap.com
 ** CSS Framework
   http://usablica.github.io/front-end-frameworks/compare.html
-  http://witinweb.com/post/105246674402/����-2014��-����-�α��ִ�-5����-����Ʈ����-�����ӿ�ũ-��
+  http://witinweb.com/post/105246674402/번역-2014년-가장-인기있는-5가지-프론트엔드-프레임워크-비교

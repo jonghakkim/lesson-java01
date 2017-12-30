@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="59502ca5-c27a-4104-a306-6d1074571428" name="kjhak.xyz" url="http://kjhak.xyz">
+        <fileTransfer host="kjhak.xyz" port="22" privateKey="C:\Users\bellc\.ssh\seoul-amazon.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
